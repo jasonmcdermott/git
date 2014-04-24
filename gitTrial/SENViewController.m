@@ -26,6 +26,7 @@
     // Dispose of any resources that can be recreated.
     
     // load some things.
+    // more things.
 }
 
 @end
