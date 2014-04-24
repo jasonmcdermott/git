@@ -22,6 +22,7 @@
 		0E208E701909C95700FED7D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E208E4F1909C95700FED7D2 /* UIKit.framework */; };
 		0E208E781909C95700FED7D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E208E761909C95700FED7D2 /* InfoPlist.strings */; };
 		0E208E7A1909C95700FED7D2 /* gitTrialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E208E791909C95700FED7D2 /* gitTrialTests.m */; };
+		0E208E851909CB9200FED7D2 /* SENTrialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E208E841909CB9200FED7D2 /* SENTrialViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		0E208E751909C95700FED7D2 /* gitTrialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitTrialTests-Info.plist"; sourceTree = "<group>"; };
 		0E208E771909C95700FED7D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E208E791909C95700FED7D2 /* gitTrialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTrialTests.m; sourceTree = "<group>"; };
+		0E208E831909CB9200FED7D2 /* SENTrialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENTrialViewController.h; sourceTree = "<group>"; };
+		0E208E841909CB9200FED7D2 /* SENTrialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENTrialViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				0E208E601909C95700FED7D2 /* Main_iPad.storyboard */,
 				0E208E631909C95700FED7D2 /* SENViewController.h */,
 				0E208E641909C95700FED7D2 /* SENViewController.m */,
+				0E208E831909CB9200FED7D2 /* SENTrialViewController.h */,
+				0E208E841909CB9200FED7D2 /* SENTrialViewController.m */,
 				0E208E661909C95700FED7D2 /* Images.xcassets */,
 				0E208E521909C95700FED7D2 /* Supporting Files */,
 			);
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E208E851909CB9200FED7D2 /* SENTrialViewController.m in Sources */,
 				0E208E651909C95700FED7D2 /* SENViewController.m in Sources */,
 				0E208E581909C95700FED7D2 /* main.m in Sources */,
 				0E208E5C1909C95700FED7D2 /* SENAppDelegate.m in Sources */,
